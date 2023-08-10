@@ -10,6 +10,19 @@ set(SOURCE_FILES
 	src/window.h
 	src/window.cpp
 
+	src/renderer/debug.h
+	src/renderer/debug.cpp
+	src/renderer/renderer.h
+	src/renderer/renderer.cpp
+	src/renderer/shader.h
+	src/renderer/shader.cpp
+	src/renderer/vertex_buffer.h
+	src/renderer/vertex_buffer.cpp
+	src/renderer/vertex_array.h
+	src/renderer/vertex_array.cpp
+	src/renderer/index_buffer.h
+	src/renderer/index_buffer.cpp
+
 	src/log.h
 )
 

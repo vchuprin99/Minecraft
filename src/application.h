@@ -11,7 +11,7 @@ namespace Minecraft {
 		int Construct(const Window::WindowDesc& desc);
 		void Start();
 	protected:
-		virtual void OnUserInit() = 0;
+		virtual void OnUserStart() = 0;
 		virtual void OnUserUpdate() = 0;
 	private:
 		std::unique_ptr<Window> _window;
